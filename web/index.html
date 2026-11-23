@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Task Board | Java Full Stack</title>
+<style>body{font:16px system-ui;margin:3rem auto;max-width:700px;padding:0 1rem;background:#101b27;color:#eef5fc}h1{font-size:2rem}form{display:flex;gap:.5rem}input{flex:1;padding:.8rem;border-radius:.5rem;border:1px solid #556}button{cursor:pointer;border:0;border-radius:.5rem;background:#70d4aa;padding:.8rem;color:#102019;font-weight:600}ul{list-style:none;padding:0}li{background:#203144;padding:1rem;border-radius:.5rem;margin:.5rem 0;display:flex;justify-content:space-between;align-items:center}.done{text-decoration:line-through;opacity:.6}small{color:#b1c5d7}</style>
+</head><body><main><h1>Engineering Task Board</h1><p>Java 17 HTTP service · persistent local task store</p>
+<form id="create"><input name="title" maxlength="120" placeholder="Describe a task" aria-label="Task title" required><button>Add task</button></form>
+<p id="status" role="status"></p><ul id="tasks" aria-live="polite"></ul>
+<small>Local demo only. No sign-in or public deployment.</small></main><script src="/app.js" defer></script></body></html>
